@@ -1,0 +1,14 @@
+.top_container_input {
+  font-size: 25px;
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+  color: rgb(255, 177, 33);
+  outline: none;
+  width: 250px;
+  padding: 2px;
+  border-bottom: 1px solid rgb(255, 177, 33);
+}
+
+.top_container_input::placeholder {
+  color: rgba(255, 177, 33, 0.414);
+}

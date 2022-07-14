@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;1,400;1,700&display=swap');
+* {
+  padding: 0px;
+  margin: 0;
+  list-style: none;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+.mainpage {
+  user-select: none;
+  margin: auto;
+  min-width: 100vh;
+  min-height: 100vh;
+  font-family: 'PT Serif', serif;
+  font-weight: 700;
+  font-size: 25px;
+  font-style: italic;
+  background-color: rgb(26, 131, 244);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: rgb(255, 177, 33);
+}
+
+.top_container {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}

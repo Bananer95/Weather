@@ -1,0 +1,13 @@
+.top_container_button {
+  border: none;
+  font-size: 20px;
+  padding: 10px 20px;
+  border-radius: 3px;
+  background-color: rgb(239, 233, 233);
+  margin-left: 50px;
+  cursor: pointer;
+}
+
+.top_container_button:active {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.366);
+}
