@@ -1,17 +1,18 @@
 import React from 'react';
 import './Card.css';
+import { ICardProps } from '../types';
 
-const Card = () => {
+const Card: React.FC<ICardProps> = ({ name, temp, img, description }) => {
   return (
     <div className="card">
-      <h1>Oslo</h1>
-      <div className="card_degrees">15 °С</div>
+      <h1>{name}</h1>
+      <div className="card_degrees">{temp} °С</div>
       <img
         className="card_img"
-        src="http://openweathermap.org/img/w/04d.png"
-        alt=""
+        src={`http://openweathermap.org/img/w/${img}.png`}
+        alt={description}
       ></img>
-      <div className="card_description">overcast clouds</div>
+      <div className="card_description">{description}</div>
     </div>
   );
 };

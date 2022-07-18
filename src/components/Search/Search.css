@@ -2,7 +2,7 @@
   font-size: 25px;
   border: none;
   background-color: rgba(0, 0, 0, 0);
-  color: rgb(255, 177, 33);
+  color: rgb(255, 225, 0);
   outline: none;
   width: 250px;
   padding: 2px;
@@ -10,5 +10,5 @@
 }
 
 .top_container_input::placeholder {
-  color: rgba(255, 177, 33, 0.414);
+  color: rgba(255, 251, 0, 0.704);
 }
